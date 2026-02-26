@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MK Concrete & Compound Consultants</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+.btn{
+    background:#ff6600;
+    padding:12px 25px;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:600;
+    display:inline-block;
+    margin-top:20px;
+}
+}
+
+body{
+    background:#f8f9fa;
+    color:#333;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+    background:#111;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav h2{
+    color:#fff;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+
+/* HERO */
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url('your-project.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    font-size:20px;
+    margin:20px 0;
+}
+
+.btn{
+    background:#ff6600;
+    padding:14px 30px;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:600;
+}
+
+/* SECTIONS */
+section{
+    padding:80px 40px;
+    text-align:center;
+}
+
+section h2{
+    font-size:32px;
+    margin-bottom:20px;
+    color:#ff6600;
+}
+
+/* SERVICES */
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* GALLERY */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+    height:250px;
+    object-fit:cover;
+}
+
+/* CONTACT */
+.contact-box{
+    background:#111;
+    color:white;
+    padding:50px;
+    border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <h2>MK Concrete</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>Building Strong Foundations Since 2016</h1>
+    <p>Professional Civil Engineering & Compound Solutions Across Uganda</p>
+    <a href="#contact" class="btn">Get In Touch</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Our Company</h2>
+    <p>
+        MK Concrete & Compound Consultants has proven capabilities across 
+        a wide range of technical fields in the civil engineering industry since 2016. 
+        We deliver high-quality workmanship, durable structures, and long-term value.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>Our Core Services</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Concrete Production</h3>
+            <p>High-quality concrete products for residential and commercial projects.</p>
+        </div>
+        <div class="service-card">
+            <h3>Paver Installation</h3>
+            <p>Professional installation of durable and modern paving solutions.</p>
+        </div>
+        <div class="service-card">
+            <h3>Landscaping</h3>
+            <p>Creative outdoor designs that enhance property value and beauty.</p>
+        </div>
+        <div class="service-card">
+            <h3>Compound Design & Maintenance</h3>
+            <p>Complete compound planning, development, and long-term care.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECT GALLERY -->
+<section id="projects">
+    <h2>Our Recent Projects</h2>
+    <div class="gallery">
+        <img src="project1.jpg" alt="Kyanja Project">
+        <img src="project2.jpg" alt="Munyonyo Project">
+        <img src="project3.jpg" alt="Najjera Project">
+        <img src="project4.jpg" alt="Katosi Treatment Plant Project">
+        <img src="project5.jpg" alt="Mulago Project">
+        <img src="project6.jpg" alt="Bukoto Project">
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p><strong>Phone:</strong> +256 705 806 839</p>
+        <p><strong>Phone:</strong> +256 783 981 811</p>
+        <br>
+        <p>We are ready to deliver excellence on your next project.</p>
+        <br>
+        <a href="https://wa.me/256705806839" class="btn">WhatsApp Us</a>
+        <br><br>
+        
+        <!-- GOOGLE MAP -->
+        <iframe 
+            src="https://www.google.com/maps?q=Kampala,Uganda&output=embed"
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+<footer>
+    © 2026 MK Concrete & Compound Consultants | All Rights Reserved
+</footer>
+
+</body>
+</html>
